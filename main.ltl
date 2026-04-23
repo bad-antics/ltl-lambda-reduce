@@ -1,0 +1,15 @@
+// ltl-lambda-reduce/main.ltl
+//
+// Untyped lambda-calculus beta-reducer with call-by-need.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-lambda-reduce v0.1.0")
+    io::println("Untyped lambda-calculus beta-reducer with call-by-need.")
+    0
+}
