@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_lambda_reduce
+
+import std::io
+use ltl_lambda_reduce as lib
+
+fn main() {
+    io::println("ltl_lambda_reduce demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
